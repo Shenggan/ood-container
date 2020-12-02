@@ -137,6 +137,7 @@ RUN apt-get update && \
         pkg-config \
         libxml2-dev \
         jags \
+        openjdk-11-jdk \
         wget && \
     if [ -z ${RSTUDIO_VERSION} ]; \
     then RSTUDIO_URL="https://www.rstudio.org/download/latest/stable/server/bionic/rstudio-server-latest-amd64.deb"; \
