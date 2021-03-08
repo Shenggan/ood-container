@@ -125,6 +125,8 @@ RUN apt-get update && \
         git \
         libapparmor1 \
         libclang-dev \
+        proj-bin \
+        libproj-dev \
         libcurl4-openssl-dev \
         libedit2 \
         libssl-dev \
